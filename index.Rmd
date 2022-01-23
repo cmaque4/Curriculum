@@ -1,48 +1,59 @@
 ---
-title: "Lijia Yu's resume"
-author: Lijia Yu
+title: "Curriculum Vitae"
+author: Carlos Puma
 date: "`r Sys.Date()`"
+params:
+  pdf_mode:
+    value: false
 output:
   pagedown::html_resume:
+    css: [ 'dd_cv.css','custom.css','resume']
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
 
+
 Aside
 ================================================================================
 
+<center><a href="url" style = 'margin: 800px 25px'><img src="https://scontent.faqp3-1.fna.fbcdn.net/v/t1.15752-9/267236304_393671009184285_4923222690440666292_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=pvOyioUZEuMAX8Ddkuo&_nc_ht=scontent.faqp3-1.fna&oh=03_AVLTARO8Mi6Qw40wC-Wi2xsXmz4KklEEcCZTiSy-OJyzUQ&oe=62141876" height="200" width="200" style="border-radius:100%"></a>
 
-![Lijia Yu](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}
 
 
-Contact Info {#contact}
+Información de Contacto {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> lijia.yu@outlook.com
-- <i class="fa fa-github"></i> [github.com/yulijia](https://github.com/yulijia)
-- <i class="fa fa-phone"></i> +1 000-000-0000
-- For more information, please contact me via email.
+- <i class="fa fa-crow"></i> [Página Web](https://carlospuma.netlify.app/)
+- <i class="fa fa-twitter"></i> [Carlos_Puma](https://twitter.com/PumaMaque)
+- <i class="fa fa-envelope"></i> cmaque4@gmail.com
+- <i class="fa fa-github"></i>  [github/Carlos_Puma](https://github.com/cmaque4)
 
 
-Skills {#skills}
+
+Idiomas {#languages}
 --------------------------------------------------------------------------------
 
-- Experienced in statistical analysis, statistical learning models, and optimization methods.
+**Español:** Nativo
 
-- Full experience with next generation sequencing data analysis.
+**English:** Intermedio
 
-- Highly skilled in R, Bash, Perl, Python, LaTeX
+**Frances:** Intermedio
+
+<br>
+
+
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
+<i class="fas fa-download"></i> [Descargar](https://beatrizmilz.github.io/resume/index.pdf)
+
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 Last updated on `r Sys.Date()`.
-
 
 
 Main
@@ -53,18 +64,18 @@ Carlos Puma {#title}
 
 
 
-Education {data-icon=graduation-cap data-concise=true}
+Educación {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Beijing University of Chemical Technology
+### Universidad Nacional de San Agustin
 
-B.S. in Information and Computing Sciences
+Bachiller en Psicología 
 
-Beijing, China
+Arequipa, Perú
 
-2010
+2022
 
-Thesis: Dyadic wavelet and its application in edge detection
+Tesis: Dyadic wavelet and its application in edge detection
 
 ### University of Chinese Academy of Sciences
 
@@ -74,7 +85,18 @@ Beijing, China
 
 2014
 
-Thesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
+Tesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
+
+### Universidad Nacional de San Agustin
+
+Bachiller en Biología
+
+Arequipa, Perú
+
+2022 - 2025
+
+Tesis: XD
+
 
 
 Research Experience {data-icon=laptop}
@@ -146,6 +168,40 @@ Beijing, China
 - Also did case studies to identify the genetic defect causing rare disease.
 :::
 
+::: aside
+
+I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
+
+I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
+
+
+### GRANTS
+
+<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
+
+<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
+
+### SOFTWARE
+
+<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
+
+<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
+
+### TEACHING
+
+<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
+
+<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
+
+### PROGRAMMING SKILLS
+
+<i class="fab fa-r-project"></i> `R`
+
+<i class="fa fa-area-chart" aria-hidden="true"></i>
+ `tidyverse`
+
+
+:::
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
