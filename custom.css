@@ -5,22 +5,22 @@
 /* Give headers playfair font */
   h1 {
     font-family: 'Spartan', sans-serif;
-    color: #16617a;
+    color: #570530;
   }
 
 
 :root {
-  --sidebar-background-color: #eaf9f5; /* Make sidebar blue */
-}
+  --sidebar-background-color: #FF758F; /* Make sidebar blue */
+} /* cambia el color del panel del lado derecho*/
 
 
 h2{
   font-family: 'Spartan', sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #444; 
+  color: #471323; 
     text-transform: uppercase;
-}
+} /* cambia el color de la letra del panel del lado derecho*/
 
 
 h3{
