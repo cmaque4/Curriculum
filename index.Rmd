@@ -8,17 +8,17 @@ params:
 output:
   pagedown::html_resume:
     css: [ 'dd_cv.css','custom.css','resume']
-    # set it to true for a self-contained HTML page but it'll take longer to render
+    # configuración como verdadero o falso para una página HTML independiente, pero tardará más en procesarse
     self_contained: true
-# uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+# esta línea puede producir HTML y PDF en RStudio:
+knit: pagedown::chrome_print
 ---
 
 
 Aside
 ================================================================================
 <center>
-![Beatriz Milz](https://scontent.faqp3-1.fna.fbcdn.net/v/t1.15752-9/267236304_393671009184285_4923222690440666292_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=pvOyioUZEuMAX8Ddkuo&_nc_ht=scontent.faqp3-1.fna&oh=03_AVLTARO8Mi6Qw40wC-Wi2xsXmz4KklEEcCZTiSy-OJyzUQ&oe=62141876){width=80% style='border-radius: 50%;'}
+![Carlos Puma](https://scontent.faqp3-1.fna.fbcdn.net/v/t1.15752-9/267236304_393671009184285_4923222690440666292_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=pvOyioUZEuMAX8Ddkuo&_nc_ht=scontent.faqp3-1.fna&oh=03_AVLTARO8Mi6Qw40wC-Wi2xsXmz4KklEEcCZTiSy-OJyzUQ&oe=62141876){width=80% style='border-radius: 50%;'}
 </center>
 
 
@@ -37,7 +37,7 @@ Idiomas {#languages}
 
 **Español:** Nativo
 
-**English:** Intermedio
+**English:** Básico
 
 **Frances:** Intermedio
 
@@ -59,7 +59,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Carlos Puma Maque {#title}
+Carlos Puma {#title}
 --------------------------------------------------------------------------------
 
 
@@ -69,179 +69,50 @@ Educación {data-icon=graduation-cap data-concise=true}
 
 ### Universidad Nacional de San Agustin
 
-Bachiller en Psicología 
+Estudiante en Psicología 
 
 Arequipa, Perú
 
-2022
+2018 - 2023
 
-Tesis: Dyadic wavelet and its application in edge detection
 
-### University of Chinese Academy of Sciences
+Experiencia en Investigación {data-icon=laptop}
+--------------------------------------------------------------------------------
 
-M.S. in Bioinformatics
+### Becario en Investigación
 
-Beijing, China
+Universidad San Ignacio de Loyola y Laboratorio de Neurociencia de la Universidad Católica San Pablo de Arequipa
 
-2014
+Lima, Perú
 
-Tesis: A multi-omics study for intra-individual divergence of the distributions between mRNA isoforms in mammals
+2022 - En Curso
 
-### Universidad Nacional de San Agustin
+- Proyecto de Investigación: “Neuroepidemiología del
+deterioro cognitivo en adultos de zonas urbano-marginales: Estudio poblacional puerta a puerta en el distrito de Puente Piedra – Lima, Lima, Perú, en el año 2021”.
 
-Bachiller en Biología
+Certificados {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Violencia contra la mujer.
+
+Ponencia realizada por el circulo de estudios de la Escuela Profesional de Psicología de la Universidad Nacional de San Agustín. **Labor realizada: Organizador** 
 
 Arequipa, Perú
 
-2022 - 2025
+2019
 
-Tesis: XD
+### I Congreso Internacional y Nacional de Psicología Clinica, Educativa y Salud Mental.
 
+Congreso organizado por la Escuela Internacional de Psicología PSICOPERÚ y acreditado por la Facultad de Psicología, RR.II. y CS.CC de la Universidad Nacional de San Agustín. **Labor realizada: Asistente y Delegado**
 
+Arequipa, Perú
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
+2019
 
-### Graduate Research Assistant
+### I Congreso Internacional de Psicologia Forense: Una visión transdiciplinar.
 
-Beijing Institute of Genomics, Chinese Academy of Sciences
+Congreso organizado por la Escuela de Formación e Investigación Judicial de la Corte Superior de Justicia de Arequipa. **Labor realizada: Asistente y Organizador**
 
-Beijing, China
+Arequipa, Perú
 
-2011 - 2014
-
-- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
-- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
-
-### Bioinformatican
-
-My Health Gene Technology Co., Ltd.
-
-Beijing, China
-
-2015 - 2016
-
-- Investigated how cancer cells spread to other parts of the body at the single cell level.
-
-### Visiting Scientist
-
-University of Alabama at Birmingham
-
-AL, USA
-
-2016 - 2018
-
-- Investigated the role of mitochondria in development of cancer.
-- Investigated the evolution of genome architecture and its role in important evolutionary events.
-- Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome.
-  
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Data Scientist, intern
-
-SupStat Inc.
-
-Beijing, China
-
-2014
-
-::: concise
-- Taught R language to beginners. 
-- Wrote Shiny app demos.
-- Converted statistical tutorials from SPSS to R language.
-:::
-
-### Bioinformatician
-
-My Health Gene Technology Co., Ltd.
-
-Beijing, China
-
-2015 - 2016
-
-::: concise
-- Analyzed whole-exome sequencing data. 
-- Wrote analysis pipelines of ChIP-seq, single cell DNA-seq and single cell RNA-seq.
-- Studied tumor metastasis and wrote research reports. 
-- Also did case studies to identify the genetic defect causing rare disease.
-:::
-
-::: aside
-
-I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo since 2018, and I have taught in several meetups and workshops. All the slides are available here: [beatrizmilz.com/talk/](https://beatrizmilz.com/talk/)
-
-I'm also a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/) and [LatinR](https://latin-r.com/).
-
-
-### GRANTS
-
-<i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
-
-<i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
-
-### SOFTWARE
-
-<i class="fas fa-box-open"></i> [Package {dados}](https://cienciadedatos.github.io/dados/) - Co-Author. 
-
-<i class="fas fa-box-open"></i> [Package {mananciais}](https://beatrizmilz.github.io/mananciais/) - Author, maintainer. 
-
-### TEACHING
-
-<i class="fas fa-chalkboard-teacher"></i> [`tidyverse` certified trainer by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/).
-
-<i class="fas fa-chalkboard-teacher"></i> [The Carpentries instructor](https://carpentries.org/).
-
-### PROGRAMMING SKILLS
-
-<i class="fab fa-r-project"></i> `R`
-
-<i class="fa fa-area-chart" aria-hidden="true"></i>
- `tidyverse`
-
-
-:::
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-### Introduction to R Language for Beginners.
-
-Instructor of R and Data Mining Training Courses at SupStat Inc.
-
-Beijing, China
-
-2014
-
-### Computational Biology and Bioinformatics.
-
-Teaching assistant of GBS CB2-201 courses at UAB
-
-AL, USA
-
-2016 - 2017
-
-
-Selected Publications and Posters {data-icon=file}
---------------------------------------------------------------------------------
-
-### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing.
-
-Poster for 2013 International Conference of Genomics
-
-Qingdao, China
-
-2014
-
-**Yu L**, Chen B, Zhang Z.
-
-### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling.
-
-J Cell Sci. 2016 May 15;129(10):2075-84.
-
-N/A
-
-2016 
-
-Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. 
+2019
