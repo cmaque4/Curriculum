@@ -49,7 +49,7 @@ Idiomas {#languages}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-<i class="fas fa-download"></i> [Descargar](https://beatrizmilz.github.io/resume/index.pdf)
+<i class="fas fa-download"></i> [Descargar](https://cmaque4.github.io/curriculum/index.pdf)
 
 This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
